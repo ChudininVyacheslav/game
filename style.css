@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image:  url('./assets/img/cave.png');
+    background-size: cover;
+}
+
+.hero-stats {
+    width: 200px;
+    height: 300px;
+    background-color: darkcyan;
+    color: white;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.enemy-stats {
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    color: white;
+    position: absolute;
+    right: 10px;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.hero-container {
+    width: 245px;
+    height: 160px;
+   
+    position: absolute;
+    bottom: 45px;
+    left: 235px;
+    background-size: 3400px;
+    background-position: -100px -3095px;
+    background-repeat: no-repeat;
+    transition: transform 1s;
+}
+
+#damage-enemy-container {
+    position: absolute;
+    top: 175px;
+    width: 30px;
+    height: 30px;
+    right: 300px;
+    background-color: red;
+    background-image: url('./assets/img/blood.png');
+    display: none;
+}
+
+#damage-hero-container {
+    position: absolute;
+    top: 175px;
+    width: 30px;
+    height: 30px;
+    left: 300px;
+    background-image: url('./assets/img/blood.png');
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.enemy-container {
+    width: 160px;
+    height: 150px;
+    position: absolute;
+    top: 190px;
+    right: 360px;
+    background-size: 1800px;
+    background-image: url('./assets/img/skeleton.png');
+    background-repeat: no-repeat;
+    transition: transform 1s;
+}
+
+.controls {
+    width: 140px;
+    height: 30px;
+    padding: 30px;
+    background-color: darkcyan;
+    color: white;
+    position: absolute;
+    left: 0;
+    border-radius: 25px;
+    border: 3px solid white;
+    bottom: 535px;
+}
